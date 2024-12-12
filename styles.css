@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+  -webkit-text-size-adjust: none; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #ffeef8; 
+    color: #4a4a4a; 
+}
+header {
+	border-top: 40px solid #ff99cc;
+    background-image: url(sun.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center; 
+    line-height: 150px;
+    height: 150px; 
+}
+header h1 {
+    color: #ff69b4;
+    font-size: 3rem;
+    padding: 0;
+	line-height: normal;
+    font-family: 'Dancing Script', cursive;
+}
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav {
+    background-color: #ff99cc; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+nav li {
+    float: left;
+    width: 25%;
+}
+nav li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid #ff69b4; 
+    font-family: 'Poppins', sans-serif;
+}
+nav li.active a {
+    background-color: #ff69b4; 
+    font-weight: bold;
+}
+main {
+    padding: 0.3rem 2%;
+    display: block;
+}
+main h1, main h2 {
+    color: #ff69b4;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+main p {
+    line-height: 1.5;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+}
+main fieldset {
+    border: 1px solid #ff99cc;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+    margin-top: 1rem;
+    background-color: #ffe6f2; 
+}
+main fieldset legend {
+    color: #ff69b4;
+    font-weight: 700;
+}
+main form label {
+    display: block;
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    color: #4a4a4a; 
+}
+main form span {
+    display: block;
+    font-size: 0.7rem;
+    color: #ff69b4; 
+}
+main form input {
+    width: 6rem;
+    font-size: 0.95rem;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+main form select {
+    width: 15rem;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+}
+main button {
+    width: 240px;
+    border: none;
+    padding: 0.8rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background: #ff69b4;
+    background: linear-gradient(to bottom, #ff69b4 1%, #ff1493 100%);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+footer {
+    text-align: center;
+    background: #ff99cc;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 1rem 0;
+    border-top: 2px solid #ff69b4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.keepOpen{clear: both;}
+
+main figure img {width: 100%;}
+
+@media only screen and (min-width: 30em) {
+   main figure {width:70%;float: right;} 
+}
